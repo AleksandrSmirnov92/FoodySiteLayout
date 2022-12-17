@@ -866,8 +866,8 @@
   flex-direction: column;
 }
 .c {
-  filter: drop-shadow(0px 14px 15px rgba(124, 124, 124, 0.06))
-    drop-shadow(0px 27px 82px rgba(124, 124, 124, 0.28));
+  /* filter: drop-shadow(0px 14px 15px rgba(124, 124, 124, 0.06))
+    drop-shadow(0px 27px 82px rgba(124, 124, 124, 0.28)); */
   display: flex;
   margin-top: 80px;
   border-radius: 20px;
