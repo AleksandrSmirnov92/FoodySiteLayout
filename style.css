@@ -940,14 +940,20 @@
 .news {
   display: flex;
   background-color: #79b93c;
-  /* flex-direction: column; */
+  flex-direction: column;
+}
+.c {
+  display: flex;
+  margin-top: 80px;
 }
 .a {
   width: 20%;
+  height: 200px;
   background-color: #b9743c;
 }
 .b {
   width: 80%;
+  height: 200px;
   background-color: #acb93c;
 }
 .news_container {
