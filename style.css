@@ -938,9 +938,17 @@
 /* ---------------------------------------------------MEDIA----------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------------------------------------------- */
 .news {
-  /* display: flex;
+  display: flex;
   background-color: #79b93c;
-  flex-direction: column; */
+  /* flex-direction: column; */
+}
+.a {
+  width: 20%;
+  background-color: #b9743c;
+}
+.b {
+  width: 80%;
+  background-color: #acb93c;
 }
 .news_container {
   display: flex;
