@@ -969,7 +969,7 @@
   .newsSpan2 {
     color: #353535;
   }
-  /* .newsSpan3 {
+  .newsSpan3 {
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
@@ -978,8 +978,8 @@
     color: rgba(97, 97, 97, 0.69);
 
     margin-bottom: 40px;
-  } */
-  /* .newsButton {
+  }
+  .newsButton {
     text-decoration: none;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -991,7 +991,7 @@
     align-self: center;
     justify-content: center;
     background: linear-gradient(92.84deg, #ffb800 -47.72%, #ff8a00 136.81%);
-  } */
+  }
   /* .newsButtonText {
     font-family: Source Sans Pro;
     font-style: normal;
