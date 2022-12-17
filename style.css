@@ -992,14 +992,14 @@
     justify-content: center;
     background: linear-gradient(92.84deg, #ffb800 -47.72%, #ff8a00 136.81%);
   }
-  /* .newsButtonText {
+  .newsButtonText {
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
     line-height: 100%;
     color: white;
-  } */
+  }
 }
 /* --------------------------------------------------------------------------------------------------------------------------------------------- */
 .Are_you_ready {
