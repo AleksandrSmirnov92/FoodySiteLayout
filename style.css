@@ -3,10 +3,6 @@
 * {
   margin: 0px;
 }
-/* body {
-  max-width: 1480px;
-  margin: 0 auto;
-} */
 ._container {
   max-width: 1480px;
   margin: 0 auto;
@@ -15,7 +11,6 @@
 ._wrapper {
   display: flex;
   flex-direction: column;
-  /* max-width: 1920px; */
   padding: 0px 15px;
 }
 /* HEADER */
@@ -31,9 +26,6 @@
 }
 .header__logo {
   padding-top: 20px;
-}
-.header_logo-link {
-  /* width: 100%; */
 }
 .header__nav {
   display: flex;
@@ -220,7 +212,6 @@
   border-radius: 8px;
   border: none;
   background: linear-gradient(#ff7a7a, #f65900);
-  /* padding-bottom: 20px; */
   margin-left: 10px;
 }
 .input1 {
@@ -233,14 +224,9 @@
   background-color: #f5f5f5;
   font-size: 25px;
 }
-.loop_button1 {
-  /* padding-top: 20px;
-    padding-left: 25px; */
-}
+
 .find_food_button1 {
   padding-left: 10px;
-  /* padding-top: 15px; */
-  /* padding-right: 25px; */
   font-size: 18px;
   color: white;
   font-weight: bold;
@@ -715,49 +701,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
-/* ---------------------------------------------------------MEDIA---------------------------------------------------------- */
-/* @media (max-width:768px) {
-    .food_sale_conteiner {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .Search_by_Food_text_and_nav{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .Search_by_Food_menu{
-        justify-content: center;
-        align-items: center;
-    }
-    .popular_items_container{
-        justify-content: center;
-        align-items: center;
-    }
-    .popular_items_blocks{
-        margin-bottom: 20px;
-    }
-    .reatured_restaurants_container_blocks{
-        margin: 0 auto;
-    }
-    .reatured_restaurants_container_blocks_icon_and_text{
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 20px;
-    }
-    .reatured_restaurants_container_blocks_button{
-        text-align: center;
-        margin: 0 auto;
-    }
-    .reatured_restaurants_container_blocks_button_opens{
-        margin: 0 auto;
-        text-align: center;
-    }
-    .arrow{
-        display: none;
-    }
-} */
 /* ---------------------------------------------------------/MEDIA---------------------------------------------------------- */
 
 .Search_by_Food_menu_list {
@@ -916,26 +859,6 @@
   color: #827e7e;
 }
 /* ---------------------------------------------------MEDIA----------------------------------------------------------------- */
-/* @media(max-width:1024px){
-    ._border-install_the_app_daily_block2{
-        border: none;
-        padding: 0;
-        margin-right: 40px;
-    }
-    .install_the_app_phone{
-        flex-direction: column;
-    }
-    .install_the_app_text{
-        align-items: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .twophone{
-        display: none;
-    }
-} */
-
-/* ---------------------------------------------------MEDIA----------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------------------------------------------- */
 .news {
   display: flex;
@@ -947,7 +870,6 @@
     drop-shadow(0px 27px 82px rgba(124, 124, 124, 0.28));
   display: flex;
   margin-top: 80px;
-  /* border: 1px solid black; */
   border-radius: 20px;
   margin-left: 10px;
   margin-right: 10px;
@@ -957,7 +879,6 @@
 }
 .a {
   width: 20%;
-  /* height: auto; */
   background-color: white;
   text-align: center;
   padding-top: 20px;
@@ -966,7 +887,6 @@
 }
 .b {
   width: 80%;
-  /* height: auto; */
 }
 .newsSpan1 {
   color: #ffb30e;
@@ -996,7 +916,6 @@
   margin-top: 20px;
   display: flex;
   width: 50%;
-  /* align-items: center; */
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -1014,105 +933,10 @@
   line-height: 100%;
   color: white;
 }
-/* .news_container_block1_text_main-text {
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 112%;
-  color: #ffb30e;
-  padding-top: 60px;
-}
-.news_container_block1_text_start {
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 112%;
-  color: #353535;
-}
-.news_container_block1_text_description {
-  padding-bottom: 50px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 140%;
-  color: rgba(97, 97, 97, 0.69);
-}
-.news_span2 {
-}
-.b {
-  width: 80%;
-  height: auto;
-  background-color: #acb93c;
-}
-.news_container {
-  display: flex;
-  flex-direction: column;
-
-  filter: drop-shadow(0px 14px 15px rgba(124, 124, 124, 0.06))
-    drop-shadow(0px 27px 82px rgba(124, 124, 124, 0.28));
-}
-.news_container_block1 {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  /* padding-top: 80px; */
-/* margin-top: 80px;
-  border-radius: 20px;
-  background: rgb(190, 141, 141);
-  overflow: hidden;
-} */
 .news_container_block1_img {
   width: 100%;
   height: auto;
 }
-/* .news_container_block1_text {
-  background-color: #79b93c;
-  width: 20%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding-left: 55px;
-  padding-right: 55px;
-} */
-/* .news_container_block1_text_main-text {
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 43px;
-  line-height: 112%;
-  color: #ffb30e;
-  padding-top: 60px;
-} */
-/* .news_container_block1_text_start {
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 43px;
-  line-height: 112%;
-  color: #353535;
-} */
-
-/* .news_container_block1_text_bottom {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(92.84deg, #ffb800 -47.72%, #ff8a00 136.81%);
-  text-decoration: none;
-  padding-top: 21px;
-  padding-bottom: 21px;
-  border-radius: 8px;
-} */
-/* .news_container_block1_text_bottom_text {
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 100%;
-  color: white;
-}  */
 
 /* --------------------------------------------------------------------------------------------------------------------------------------------- */
 .Are_you_ready {
@@ -1342,13 +1166,9 @@ li {
     background-color: #f5f5f5;
     text-align: center;
     margin-left: 0;
-    /* margin-left: 10px; */
-    /* font-size: 14px; */
   }
   .starving__container_ask_h1 {
     font-size: 60px;
-    /* align-items: center;
-        align-self: center; */
   }
   .button1 {
     margin: 0;
