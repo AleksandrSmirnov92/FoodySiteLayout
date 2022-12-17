@@ -953,7 +953,7 @@
 }
 .a {
   width: 20%;
-  height: 200px;
+  /* height: 200px; */
   background-color: #b9743c;
 }
 .news_span {
@@ -961,7 +961,7 @@
 }
 .b {
   width: 80%;
-  height: 200px;
+  /* height: 200px; */
   background-color: #acb93c;
 }
 .news_container {
@@ -982,8 +982,8 @@
   overflow: hidden;
 }
 .news_container_block1_img {
-  /* width: 70%; */
-  /* height: 100%; */
+  width: 100%;
+  height: auto;
 }
 .news_container_block1_text {
   background-color: #79b93c;
