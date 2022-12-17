@@ -946,6 +946,14 @@
     margin-right: 10px; */
     overflow: hidden;
   }
+  .reverse {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    overflow: hidden;
+  }
   .a {
     margin-top: 0;
     width: 100%;
