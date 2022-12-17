@@ -950,6 +950,7 @@
 }
 .news_container_block1 {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   /* padding-top: 80px; */
   margin-top: 80px;
