@@ -958,7 +958,7 @@
   .b {
     width: 100%;
   }
-  /* .newsSpan1 {
+  .newsSpan1 {
     color: #ffb30e;
     font-family: Source Sans Pro;
     font-style: normal;
@@ -966,8 +966,7 @@
     font-size: 20px;
     line-height: 112%;
     color: #ffb30e;
-    margin: 0;
-  } */
+  }
   /* .newsSpan2 {
     margin: 0;
     color: #353535;
