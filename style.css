@@ -940,6 +940,10 @@
 
 /* ---------------------------------------------------MEDIA----------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------------------------------------------- */
+.news {
+  display: flex;
+  background-color: #79b93c;
+}
 .news_container {
   display: flex;
   flex-direction: column;
@@ -949,6 +953,7 @@
 .news_container_block1 {
   display: flex;
   justify-content: space-between;
+  /* padding-top: 80px; */
   margin-top: 80px;
   border-radius: 20px;
   background: white;
