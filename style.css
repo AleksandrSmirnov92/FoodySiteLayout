@@ -3,7 +3,10 @@
 * {
   margin: 0px;
 }
-
+body {
+  max-width: 1480px;
+  margin: 0 auto;
+}
 ._container {
   max-width: 1480px;
   margin: 0 auto;
@@ -12,7 +15,7 @@
 ._wrapper {
   display: flex;
   flex-direction: column;
-  max-width: 1920px;
+  /* max-width: 1920px; */
   padding: 0px 15px;
 }
 /* HEADER */
@@ -88,15 +91,13 @@
 /* /HEADER */
 /*STARVING*/
 .starving {
-  /* width: 100%; */
   background: #ffb30e;
-  /* height: 696px; */
 }
 .starving__container {
   display: flex;
   justify-content: space-between;
   background: #ffb30e;
-  /* height: 696px; */
+
   margin: 0 auto;
 }
 .image_base_starving {
@@ -107,10 +108,7 @@
 .starving__container_ask {
   padding-top: 132px;
   padding-left: 20px;
-  /* width: 57%; */
-  /* height: 355px; */
   padding-bottom: 132px;
-  /* width: 50%; */
 }
 .starving__container_ask_h1 {
   color: white;
@@ -123,7 +121,6 @@
   color: #504f4f;
   font-size: 22px;
   font-weight: 400;
-  /* margin-bottom: 20px; */
   padding-bottom: 30px;
 }
 /* ФОРМА */
@@ -943,6 +940,7 @@
 .news {
   display: flex;
   background-color: #79b93c;
+  flex-direction: column;
 }
 .news_container {
   display: flex;
