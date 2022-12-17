@@ -953,6 +953,8 @@
   margin-right: 10px;
   overflow: hidden;
 }
+._reverse {
+}
 .a {
   width: 20%;
   /* height: auto; */
@@ -997,6 +999,8 @@
   /* align-items: center; */
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 8px;
   align-self: center;
   justify-content: center;
@@ -1394,18 +1398,17 @@ li {
   .c {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 80px;
-    border: 1px solid black;
     border-radius: 20px;
     margin-left: 10px;
     margin-right: 10px;
     overflow: hidden;
   }
   .a {
+    margin-top: 0;
     width: 100%;
     background-color: white;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 0;
     display: flex;
     flex-direction: column;
   }
@@ -1420,9 +1423,10 @@ li {
     font-size: 20px;
     line-height: 112%;
     color: #ffb30e;
-    padding-top: 10px;
+    margin: 0;
   }
   .newsSpan2 {
+    margin: 0;
     color: #353535;
   }
   .newsSpan3 {
@@ -1432,15 +1436,15 @@ li {
     font-size: 18px;
     line-height: 140%;
     color: rgba(97, 97, 97, 0.69);
-    padding-top: 40px;
+
     margin-bottom: 40px;
   }
   .newsButton {
     text-decoration: none;
     margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     width: 50%;
-    /* align-items: center; */
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 8px;
@@ -1456,30 +1460,6 @@ li {
     line-height: 100%;
     color: white;
   }
-
-  /* .news_container_block1 {
-    flex-direction: column;
-  }
-  .news_container_block1_text {
-    align-items: center;
-  }
-  .news_container_block1_text_main-text {
-    font-size: 30px;
-  }
-  .news_container_block1_text_description {
-    font-size: 18px;
-  }
-  .news_container_block1_text_start {
-    font-size: 30px;
-  }
-  .news_container_block1_text_bottom {
-    padding-top: 11px;
-    padding-bottom: 11px;
-  }
-  ._reverse {
-    flex-direction: column-reverse;
-  } */
-
   /* ---------------------------------------------------------ARE_YOU_READY------------------------------------------------------------------------------------ */
 
   .Are_you_ready {
